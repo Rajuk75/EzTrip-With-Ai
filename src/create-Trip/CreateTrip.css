@@ -1,0 +1,43 @@
+/* CreateTrip.css */
+.create-trip-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .item-center {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .maintenance-message {
+    font-size: 1.5rem;
+    color: #f39c12; /* Yellow color for maintenance message */
+    margin-top: 20px;
+  }
+  
+  .info-message {
+    font-size: 1.2rem;
+    color: #27ae60; /* Green color for positive message */
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .item-center {
+      font-size: 1.5rem; /* Adjust font size for mobile */
+    }
+  
+    .maintenance-message {
+      font-size: 1.2rem;
+    }
+  
+    .info-message {
+      font-size: 1rem;
+    }
+  }
+  
